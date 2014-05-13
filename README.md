@@ -1,10 +1,12 @@
-SGLogging - simple wrapper macros around the ASL (Apple System Log).
+# SGLogging
 
-# Instalation
+Simple wrapper macros around the ASL (Apple System Log).
+
+## Instalation
 - Add SGLogging.h and SGLogging.m to the project.
 - Import SGLogging.h to the <Project>-Prefix.pch file to make it avaliable in all classes.
 
-# Usage
+## Usage
 	SGLogEmergency(@"");	// The highest priority, usually reserved for catastrophic failures and reboot notices.
 	SGLogAlert(@"");		// A serious failure in a key system.
 	SGLogCritical(@"");		// A failure in a key system.
