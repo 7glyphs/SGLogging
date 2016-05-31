@@ -59,6 +59,8 @@
 
 #import <Foundation/Foundation.h>
 
+#pragma GCC diagnostic ignored "-Wgnu"
+
 // By default, in non-debug mode we want to disable any logging
 // statements except NOTICE and above.
 #ifndef SG_COMPILE_TIME_LOG_LEVEL
