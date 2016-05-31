@@ -69,7 +69,7 @@
 	#endif
 #endif
 
-#include <asl.h>
+@import asl
 
 #if SG_COMPILE_TIME_LOG_LEVEL >= ASL_LEVEL_EMERG
 void SGLogEmergency(NSString *format, ...);
@@ -118,4 +118,3 @@ void SGLogDebug(NSString *format, ...);
 #else
 #define SGLogDebug(...)
 #endif
-
