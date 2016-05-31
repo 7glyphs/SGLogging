@@ -13,6 +13,6 @@
     "ios": "4.3",
     "osx": "10.6"
   },
-  "source_files": "SGLogging",
+  "source_files": "SGLogging/*.{h,m}",
   "requires_arc": false
 }
