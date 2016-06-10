@@ -8,6 +8,7 @@
 #define SG_COMPILE_TIME_LOG_LEVEL ASL_LEVEL_DEBUG
 
 #import "SGLogging.h"
+#import <asl.h>
 
 static void AddStderrOnce()
 {
